@@ -1051,4 +1051,28 @@ section {
     flex-direction: column;
     text-align: center;
   }
+
+  .trustbar-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .trust-item {
+    padding: 14px;
+    border-radius: 18px;
+    min-height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trust-item h4 {
+    font-size: 12px;
+  }
+
+  .trust-item p {
+    font-size: 12px;
+    word-break: break-word;
+  }
 }
