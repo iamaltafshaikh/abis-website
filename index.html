@@ -77,10 +77,14 @@
 
 
   <!-- HERO -->
-  <section class="hero" id="home">
-    <div class="container hero-grid reveal">
+  <section class="hero-slider" id="home">
+  <div class="slider">
 
-      <div class="hero-left">
+    <!-- SLIDE 1 -->
+    <div class="slide active" style="background-image: url('assets/slide1.jpeg');">
+      <div class="overlay"></div>
+
+      <div class="container slide-content">
         <div class="pill">🚀 Smart IT Solutions & Internship Programs</div>
 
         <h1>
@@ -91,7 +95,6 @@
         <p>
           We are a technology-driven IT company delivering innovative solutions in
           <b>Web & Java Development, Cyber Security, Cloud Computing, and Data Analytics</b>.
-          We build scalable, secure, and high-performance systems while nurturing future professionals.
         </p>
 
         <div class="hero-buttons">
@@ -99,29 +102,114 @@
           <a href="#internship" class="btn glass">Join Internship</a>
         </div>
 
+        <!-- HERO STATS -->
         <div class="hero-stats">
           <div class="stat-card">
             <h3>50+</h3>
             <p>Partner Colleges</p>
           </div>
           <div class="stat-card">
-            <h3>100+</h3>
+            <h3>1000+</h3>
             <p>Interns Trained</p>
           </div>
           <div class="stat-card">
-            <h3>20+</h3>
+            <h3>100+</h3>
             <p>Client Projects</p>
           </div>
         </div>
-      </div>
 
-      <div class="hero-right">
-        <!-- 🔥 ADD HERO IMAGE HERE -->
-        <img src="assets/hero.png" alt="Hero Image">
       </div>
-
     </div>
-  </section>
+
+    <!-- SLIDE 2 -->
+    <div class="slide" style="background-image: url('assets/slide2.jpeg');">
+      <div class="overlay"></div>
+
+      <div class="container slide-content">
+        <div class="pill">🎓 Career-Oriented Training & Internships</div>
+
+        <h1>
+          Learn with
+          <span class="gradient-text">Live Client Projects</span>
+        </h1>
+
+        <p>
+          Our internship programs provide real corporate exposure, professional mentoring,
+          and hands-on experience using industry tools and workflows.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#internship" class="btn primary">We are Hiring</a>
+          <a href="#contact" class="btn glass">Contact Us</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <h3>10+</h3>
+            <p>Technology Domains</p>
+          </div>
+          <div class="stat-card">
+            <h3>100%</h3>
+            <p>Practical Learning</p>
+          </div>
+          <div class="stat-card">
+            <h3>24/7</h3>
+            <p>Mentor Support</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="slide" style="background-image: url('assets/slide3.jpeg');">
+      <div class="overlay"></div>
+
+      <div class="container slide-content">
+        <div class="pill">🛡 Secure. Scalable. Reliable.</div>
+
+        <h1>
+          Build Systems That Are
+          <span class="gradient-text">Future Ready</span>
+        </h1>
+
+        <p>
+          We help organizations build secure, scalable and high-performance digital solutions
+          powered by modern technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#services" class="btn primary">View Services</a>
+          <a href="#contact" class="btn glass">Get Quote</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <h3>99%</h3>
+            <p>Client Satisfaction</p>
+          </div>
+          <div class="stat-card">
+            <h3>100%</h3>
+            <p>Secure Practices</p>
+          </div>
+          <div class="stat-card">
+            <h3>Fast</h3>
+            <p>Deployment Support</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DOTS -->
+  <div class="slider-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
 
 
   <!-- ABOUT -->
@@ -130,7 +218,7 @@
 
       <div class="about-image">
         <!-- 🔥 ADD ABOUT IMAGE HERE -->
-        <img src="assets/about.png" alt="About Image">
+        <img src="assets/about.jpeg" alt="About Image">
       </div>
 
       <div class="about-text">
@@ -152,10 +240,34 @@
           <div class="highlight-card">✔ Corporate Mentorship</div>
           <div class="highlight-card">✔ Real Client Projects</div>
         </div>
-      </div>
-
     </div>
-  </section>
+  </section>    
+  <section class="trustbar">
+    <div class="container reveal">
+      <div class="trustbar-box">
+
+        <div class="trust-item">
+         <h4>ISO Certified</h4>
+         <p>ISO 9001:2015</p>
+        </div>
+
+        <div class="trust-item">
+         <h4>Registration No</h4>
+         <p>XXXXXXXX</p>
+        </div>
+
+        <div class="trust-item">
+         <h4>CIN No</h4>
+         <p>UXXXXXXMH2026PTCXXXXXX</p>
+        </div>
+
+        <div class="trust-item">
+         <h4>PAN No</h4>
+         <p>ABCDE1234F</p>
+        </div>
+      </div>
+    </div>
+</section>
 
 
   <!-- SERVICES -->
@@ -228,10 +340,20 @@
         <h3 class="sub-heading">Domains Available</h3>
 
         <div class="domain-tags">
-          <span>Web & Java Development</span>
+          <span>HR</span>
+          <span>Finance</span>
+          <span>Web Developer</span>
+          <span>Java Developer</span>
+          <span>AI/ML</span>
+          <span>Operations</span>
+          <span>Marketing</span>
+          <span>Graphic Design</span>
           <span>Cyber Security</span>
-          <span>Cloud Computing</span>
           <span>Data Analysis</span>
+          <span>Cloud Computing</span>
+          <span>Data Science</span>
+          <span>Python</span>
+          <span>business Analysis</span>
         </div>
 
         <div class="center-btn">
